@@ -13,4 +13,16 @@
   //TODO: make it responsive
   width: 1280px;
   height: 730px;
+
+  //FLEX
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  gap: 0;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.page-content{
+  background-color: #CAF0F8;
 }

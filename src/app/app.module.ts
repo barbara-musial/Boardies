@@ -5,8 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashboardContainerComponent } from './dashboard-container/dashboard-container.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
-import { NavBarButtonComponent } from './nav-bar-button/nav-bar-button.component';
-import { NavBarLogoComponent } from './nav-bar-logo/nav-bar-logo.component';
+import { NavBarButtonComponent } from './navigation-bar/nav-bar-button/nav-bar-button.component';
+import { NavBarLogoComponent } from './navigation-bar/nav-bar-logo/nav-bar-logo.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import {HttpClientModule} from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -14,10 +16,12 @@ import { NavBarLogoComponent } from './nav-bar-logo/nav-bar-logo.component';
     DashboardContainerComponent,
     NavigationBarComponent,
     NavBarButtonComponent,
-    NavBarLogoComponent
+    NavBarLogoComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
