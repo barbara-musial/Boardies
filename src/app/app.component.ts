@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {HostBinding} from "@angular/core";
 
 @Component({
   selector: 'app-root',
